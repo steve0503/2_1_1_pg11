@@ -21,6 +21,9 @@
 		00A3C2CD188CBD11002392F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A3C2AF188CBD11002392F3 /* UIKit.framework */; };
 		00A3C2D5188CBD11002392F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00A3C2D3188CBD11002392F3 /* InfoPlist.strings */; };
 		00A3C2D7188CBD11002392F3 /* __1_1_pg11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A3C2D6188CBD11002392F3 /* __1_1_pg11Tests.m */; };
+		00A3C2E1188CC11B002392F3 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00A3C2E0188CC11B002392F3 /* sound.mp3 */; };
+		00A3C2E3188CC143002392F3 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A3C2E2188CC143002392F3 /* image.jpg */; };
+		00A3C2E5188CCF05002392F3 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3C2E4188CCF05002392F3 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		00A3C2D2188CBD11002392F3 /* 2_1_1_pg11Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2_1_1_pg11Tests-Info.plist"; sourceTree = "<group>"; };
 		00A3C2D4188CBD11002392F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00A3C2D6188CBD11002392F3 /* __1_1_pg11Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __1_1_pg11Tests.m; sourceTree = "<group>"; };
+		00A3C2E0188CC11B002392F3 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		00A3C2E2188CC143002392F3 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		00A3C2E4188CCF05002392F3 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +118,11 @@
 		00A3C2B1188CBD11002392F3 /* 2_1_1_pg11 */ = {
 			isa = PBXGroup;
 			children = (
+				00A3C2E0188CC11B002392F3 /* sound.mp3 */,
 				00A3C2BA188CBD11002392F3 /* AppDelegate.h */,
 				00A3C2BB188CBD11002392F3 /* AppDelegate.m */,
+				00A3C2E4188CCF05002392F3 /* image.png */,
+				00A3C2E2188CC143002392F3 /* image.jpg */,
 				00A3C2BD188CBD11002392F3 /* Main.storyboard */,
 				00A3C2C0188CBD11002392F3 /* ViewController.h */,
 				00A3C2C1188CBD11002392F3 /* ViewController.m */,
@@ -228,9 +237,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A3C2E1188CC11B002392F3 /* sound.mp3 in Resources */,
 				00A3C2C4188CBD11002392F3 /* Images.xcassets in Resources */,
 				00A3C2B6188CBD11002392F3 /* InfoPlist.strings in Resources */,
 				00A3C2BF188CBD11002392F3 /* Main.storyboard in Resources */,
+				00A3C2E3188CC143002392F3 /* image.jpg in Resources */,
+				00A3C2E5188CCF05002392F3 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
